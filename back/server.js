@@ -32,7 +32,6 @@ app.post('/usuarios', async (req, res) => {
 
         })
             
-
     res.status(201).json(req.body)
 })
 
